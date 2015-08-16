@@ -1,0 +1,22 @@
+{
+  "name": "bapcat/services",
+  "description": "",
+  "license": "GPLv3",
+  "homepage": "http://github.com/BapCat/Services",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Corey Frenette",
+      "email": "corey@narwhunderful.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "bapcat/interfaces": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "BapCat\\Services\\": "src/"
+    }
+  }
+}
