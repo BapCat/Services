@@ -4,6 +4,7 @@
   "license": "GPLv3",
   "homepage": "http://github.com/BapCat/Services",
   "keywords": [],
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Corey Frenette",
@@ -12,7 +13,8 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "bapcat/interfaces": "^1.0"
+    "bapcat/interfaces": "dev-master",
+    "bapcat/phi": "dev-master"
   },
   "autoload": {
     "psr-4": {
