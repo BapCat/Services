@@ -3,7 +3,7 @@
   "description": "",
   "license": "GPLv3",
   "homepage": "http://github.com/BapCat/Services",
-  "keywords": ['Services', 'Service', 'Provider'],
+  "keywords": ["Services", "Service", "Provider"],
   "authors": [
     {
       "name": "Corey Frenette",
