@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/BapCat/Services.svg?branch=1.0.0)](https://travis-ci.org/BapCat/Services)
-[![Coverage Status](https://coveralls.io/repos/BapCat/Services/badge.svg?branch=1.0.0)](https://coveralls.io/r/BapCat/Services?branch=1.0.0)
+[![Build Status](https://travis-ci.org/BapCat/Services.svg?branch=0.1.0)](https://travis-ci.org/BapCat/Services)
+[![Coverage Status](https://coveralls.io/repos/BapCat/Services/badge.svg?branch=0.1.0)](https://coveralls.io/r/BapCat/Services?branch=0.1.0)
 [![License](https://img.shields.io/packagist/l/BapCat/Services.svg)](https://img.shields.io/packagist/l/BapCat/Services.svg)
 
 # Services
