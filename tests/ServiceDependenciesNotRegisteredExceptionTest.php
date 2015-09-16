@@ -4,15 +4,13 @@ use BapCat\Services\ServiceDependenciesNotRegisteredException;
 
 class ServiceDependenciesNotRegisteredExceptionTest extends PHPUnit_Framework_TestCase {
   private $exception;
-  private $services;
+  private $services = [
+    'test' => [
+      'test' => 'test'
+    ]
+  ];
   
   public function setUp() {
-    $this->services = [
-      'test' => [
-        'test' => 'test'
-      ]
-    ];
-    
     $this->exception = new ServiceDependenciesNotRegisteredException($this->services);
   }
   
