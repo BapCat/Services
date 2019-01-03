@@ -5,14 +5,14 @@ use BapCat\Services\ServiceProvider;
 class CatServiceProvider implements ServiceProvider {
   public static $registered = false;
   public static $booted     = false;
-  
-  const provides = 'cats';
-  
-  public function register() {
+
+  protected const provides = 'cats';
+
+  public function register(): void {
     self::$registered = true;
   }
-  
-  public function boot() {
+
+  public function boot(): void {
     self::$booted = true;
   }
 }
